@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 # === Global Loading ===
 
 pio.templates.default = 'plotly_white' # Making the plots background white - feel free to change/delete
-df_full = pd.read_csv(r'final_data.csv') # Script 01_producemergedcsv must be run first
+df_full = pd.read_csv(r'https://github.com/Brandonw37/STN_C3_Dashboard_test/raw/refs/heads/main/final_data_.csv.gz') # Script 01_producemergedcsv must be run first
 
 # Created a function that filters the data to what is selected (to use in the plotting callbacks)
 def filter_data(df, selected_variable, selected_months, selected_wyts, min_year, max_year, selected_units, dropna=True):
